@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <link rel="stylesheet" href="../../assets/css/iframe.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: space-around; margin-top: 5px;">
+        <button class="mapName2" id="button-map1" style="cursor: pointer;"><span class="active" id="map1Name">HAVEN
+                (SLICK)</span></button>
+        <button class="mapName2" id="button-map2" style="cursor: pointer;"><span id="map2Name">BIND (Stars
+                Horizon)</span></button>
+        <button class="mapName2" disabled><span>SPLIT (Decider)</span></button>
+    </div>
+
+    <div id="map1">
+        <div>
+            <h2 class="team1Name">Stars Horizon</h2>
+            <div class="team1Rounds">8</div>
+            <div class="team1Half-loser">6/2</div>
+
+            <div>
+                <table class="width">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+
+                            <th>Agent</th>
+
+                            <th title="Average Combat Score">ACS</th>
+
+                            <th title="Kills / Deaths / Assists">K / D / A</th>
+
+                            <th>Kills - Deaths</th>
+
+                            <th title="Average Damage per Round">ADR</th>
+
+                            <th>Headshot %</th>
+
+                            <th>First Kills</th>
+
+                            <th>First Deaths</th>
+
+                            <th>Kills - Deaths</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    dgzin
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Jett</span>
+                            </td>
+
+                            <td class="center">
+                                <span>252</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">19</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">18</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">1</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+1 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>138.8</span>
+                            </td>
+
+                            <td class="center">
+                                <span>39%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>6</span>
+                            </td>
+
+                            <td class="center">
+                                <span>4</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+2 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    chase
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Raze</span>
+                            </td>
+
+                            <td class="center">
+                                <span>204</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">14</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">15</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">2</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>131.5</span>
+                            </td>
+
+                            <td class="center">
+                                <span>33%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    v1nny
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Skye</span>
+                            </td>
+
+                            <td class="center">
+                                <span>153</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 8px;">
+                                <div>
+                                    <span style="padding: 3px;">9</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">16</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">3</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-7 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>98.7</span>
+                            </td>
+
+                            <td class="center">
+                                <span>29%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    pancada
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Astra</span>
+                            </td>
+
+                            <td class="center">
+                                <span>130</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">10</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">16</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">4</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-6 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>76.3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>27%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-2 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    fuzari
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Cypher</span>
+
+                            </td>
+
+                            <td class="center">
+                                <span>76</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 8px;">
+                                <div>
+                                    <span style="padding: 3px;">6</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">17</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">3</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-11 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>54.0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>11%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>4</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-4 </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="team1Name">SLICK</h2>
+            <div class="team1Rounds">13</div>
+            <div class="team1Half-winner">6/7</div>
+
+            <div style="display: flex; align-content: center;">
+                <table class="width">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+
+                            <th>Agent</th>
+
+                            <th title="Average Combat Score">ACS</th>
+
+                            <th title="Kills / Deaths / Assists">K / D / A</th>
+
+                            <th>Kills - Deaths</th>
+
+                            <th title="Average Damage per Round">ADR</th>
+
+                            <th>Headshot %</th>
+
+                            <th>First Kills</th>
+
+                            <th>First Deaths</th>
+
+                            <th>Kills - Deaths</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    Veroneze
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Jett</span>
+                            </td>
+
+                            <td class="center">
+                                <span>276</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">21</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">1</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+10 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>204.0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>33%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>6</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+5 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    DiMAS
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Cypher</span>
+                            </td>
+
+                            <td class="center">
+                                <span>258</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">20</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">5</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+9 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>176.8</span>
+                            </td>
+
+                            <td class="center">
+                                <span>39%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    DONSA
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>astra</span>
+                            </td>
+
+                            <td class="center">
+                                <span>207</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">15</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">13</span>
+                                    <span>/</span>
+                                    <span>10</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+2 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>132.7</span>
+                            </td>
+
+                            <td class="center">
+                                <span>43%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    Maverick
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Sova</span>
+                            </td>
+
+                            <td class="center">
+                                <span>197</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">15</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">12</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">5</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+3 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>161.9</span>
+                            </td>
+
+                            <td class="center">
+                                <span>40%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px;">
+                                    aspas
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Reyna</span>
+                            </td>
+
+                            <td class="center">
+                                <span>155</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">6</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>0 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>94.8</span>
+                            </td>
+
+                            <td class="center">
+                                <span>24%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+2 </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="map2" hidden>
+        <div>
+            <h2 class="team1Name">Stars Horizon</h2>
+            <div class="team1Rounds">2</div>
+            <div class="team1Half-loser">2/0</div>
+
+            <div>
+                <table class="width">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+
+                            <th>Agent</th>
+
+                            <th title="Average Combat Score">ACS</th>
+
+                            <th title="Kills / Deaths / Assists">K / D / A</th>
+
+                            <th>Kills - Deaths</th>
+
+                            <th title="Average Damage per Round">ADR</th>
+
+                            <th>Headshot %</th>
+
+                            <th>First Kills</th>
+
+                            <th>First Deaths</th>
+
+                            <th>Kills - Deaths</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    v1nny
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Skye</span>
+                            </td>
+
+                            <td class="center">
+                                <span>195</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">10</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">14</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">2</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-4 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>129.9</span>
+                            </td>
+
+                            <td class="center">
+                                <span>28%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    dgzin
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Jett</span>
+                            </td>
+
+                            <td class="center">
+                                <span>181</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 9px;">
+                                <div>
+                                    <span style="padding: 3px;">8</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">15</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">4</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-7 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>114.5</span>
+                            </td>
+
+                            <td class="center">
+                                <span>28%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    pancada
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span class="">Astra</span>
+                            </td>
+
+                            <td class="center">
+                                <span>175</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 9px;">
+                                <div>
+                                    <span style="padding: 3px;">8</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">14</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">5</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-6 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>102.1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>27%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    chase
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Raze</span>
+                            </td>
+
+                            <td class="center">
+                                <span>129</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 9px;">
+                                <div>
+                                    <span style="padding: 3px;">6</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">13</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">2</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-7 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>82.5</span>
+                            </td>
+
+                            <td class="center">
+                                <span>28%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>4</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-2 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    fuzari
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Cypher</span>
+                            </td>
+
+                            <td class="center">
+                                <span>107</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center; padding-left: 9px;">
+                                <div>
+                                    <span style="padding: 3px;">5</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">15</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">3</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-10 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>55.9</span>
+                            </td>
+
+                            <td class="center">
+                                <span>10%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h2 class="team1Name">SLICK</h2>
+            <div class="team1Rounds">13</div>
+            <div class="team1Half-winner">10/3</div>
+
+            <div>
+                <table class="width">
+                    <thead>
+                        <tr>
+                            <th>Player</th>
+
+                            <th>Agent</th>
+
+                            <th title="Average Combat Score">ACS</th>
+
+                            <th title="Kills / Deaths / Assists">K / D / A</th>
+
+                            <th>Kills - Deaths</th>
+
+                            <th title="Average Damage per Round">ADR</th>
+
+                            <th>Headshot %</th>
+
+                            <th>First Kills</th>
+
+                            <th>First Deaths</th>
+
+                            <th>Kills - Deaths</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    Maverick
+
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Brimstone</span>
+                            </td>
+
+                            <td class="center">
+                                <span>439</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">26</span>
+                                    <span>/</span>
+                                    <span style="padding: 6px;">3</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">3</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+23 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>311.8</span>
+                            </td>
+
+                            <td class="center">
+                                <span>36%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    aspas
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Raze</span>
+                            </td>
+
+                            <td class="center">
+                                <span>285</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">16</span>
+                                    <span>/</span>
+                                    <span style="padding: 7px;">7</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">8</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+9 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>225.9</span>
+                            </td>
+
+                            <td class="center">
+                                <span>23%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-2 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    DiMAS
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Skye</span>
+                            </td>
+
+                            <td class="center">
+                                <span>251</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">14</span>
+                                    <span>/</span>
+                                    <span style="padding: 6px; padding-left: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">4</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+3 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>142.7</span>
+                            </td>
+
+                            <td class="center">
+                                <span>30%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>5</span>
+                            </td>
+
+                            <td class="center">
+                                <span>2</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+3 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    DONSA
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Sage</span>
+                            </td>
+
+                            <td class="center">
+                                <span>202</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">11</span>
+                                    <span>/</span>
+                                    <span style="padding: 7px;">8</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">4</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>+3 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>121.3</span>
+                            </td>
+
+                            <td class="center">
+                                <span>25%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>-1 </span>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="center player">
+                                <div style="font-weight: 700; padding-bottom: 4px; padding-top: 2px; max-width: 80px;">
+                                    Veroneze
+                                </div>
+                            </td>
+
+                            <td class="center agent">
+                                <span>Viper</span>
+                            </td>
+
+                            <td class="center">
+                                <span>93</span>
+                            </td>
+
+                            <td style="width: 10%; text-align: center;">
+                                <div>
+                                    <span style="padding: 3px;">4</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">8</span>
+                                    <span>/</span>
+                                    <span style="padding: 3px;">3</span>
+                                </div>
+                            </td>
+
+                            <td class="center">
+                                <span>-4 </span>
+                            </td>
+
+                            <td class="center">
+                                <span>63.1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>7%</span>
+                            </td>
+
+                            <td class="center">
+                                <span>1</span>
+                            </td>
+
+                            <td class="center">
+                                <span>0</span>
+                            </td>
+
+                            <td class="center">
+                                <span>+1 </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="../2mapGame.js"></script>
+
+</html>

@@ -1,0 +1,94 @@
+.mapName {
+    padding: 15px 2px;
+    background-color: #afafaf;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.mapName1 {
+    padding: 15px 2px;
+    background-color: #afafaf;
+    border: 1px solid black;
+    width: 99%;
+}
+
+.mapName2 {
+    padding: 15px 2px;
+    background-color: #afafaf;
+    border: 1px solid black;
+    width: 30%;
+}
+
+.team1Name {
+    text-align: center;
+    margin: 3px;
+}
+
+.team1Rounds {
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+}
+
+.team1Half-winner {
+    color: rgb(1, 75, 1);
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.team1Half-loser {
+    color: rgb(109, 1, 1);
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+}
+
+.pad-left {
+    padding-left: 14px;
+}
+
+.center {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.width {
+    width: 100%;
+}
+
+.kills {
+    padding-left: 25px;
+}
+
+.assists {
+    padding-left: 15px;
+}
+
+.space {
+    margin-left: 60px;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.player {
+    padding: 0;
+    margin: 0;
+    width: 87px;
+}
+
+.agent {
+    width: 67px;
+}
+
+.data-cell {
+    width: 10%; 
+    text-align: center; 
+    padding-left: 9px;
+}
+
+.kda {
+    padding: 3px;
+}
