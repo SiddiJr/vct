@@ -2,14 +2,30 @@ import React from 'react'
 import Link from 'next/link'
 
 function Positions() {
+
+  const style = {
+    rowHead: {
+      borderBottom: '1px solid black'
+    },
+    th: {
+      width: '140px',
+      height: '65.05px'
+    },
+    thTime: {
+      width: '140px',
+      height: '65.05px',
+      borderRight: 'none'
+    }
+  }
+
   return (
-    <table className="premiacao">
+    <table className="premiacao" style={{ borderRadius: '3px' }}>
       <thead>
-        <tr>
-          <th className="posicao" style={{ width: '63.86px', height: '60px' }}>Posição</th>
-          <th className="premio" style={{ width: '63.86px', height: '60px' }}>Premio</th>
-          <th className="seed" style={{ width: '63.86px', height: '60px' }}>Seed</th>
-          <th className="time" style={{ width: '63.86px', height: '60px' }}>Time</th>
+        <tr style={style.rowHead}>
+          <th className="posicao" style={style.th}>Posição</th>
+          <th className="premio" style={style.th}>Premio</th>
+          <th className="seed" style={style.th}>Seed</th>
+          <th className="time" style={style.thTime}>Time</th>
         </tr>
       </thead>
 

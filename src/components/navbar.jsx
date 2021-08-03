@@ -5,7 +5,7 @@ import Image from 'next/image'
 function NavBar() {
   const style = {
     navbar: {
-      backgroundColor: '#474747',
+      backgroundColor: '#ffff',
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'space-between',

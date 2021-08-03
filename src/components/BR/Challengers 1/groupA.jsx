@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GrupoA({ onHandleClick }) {
+function GrupoA() {
   return (
     <div className="groupA">
       <h2 className="group-title">Grupo A</h2>

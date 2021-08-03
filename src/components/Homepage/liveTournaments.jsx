@@ -46,32 +46,12 @@ function OnGoingTournaments() {
 
         <div style={style.divName}>
           <Link href='/'>
-            <a>Series 3: Challengers 2(EU)</a>
+            <a>Series 3: Challengers Playoffs(EMEA)</a>
           </Link>
         </div>
 
         <div style={style.divDate}>
           <span>Jul 21 - Aug 2</span>
-        </div>
-
-        <div style={style.divName}>
-          <Link href='/'>
-            <a>Series 3: Challengers 2(TR)</a>
-          </Link>
-        </div>
-
-        <div style={style.divDate}>
-          <span>Jul 20 - 31</span>
-        </div>
-
-        <div style={style.divName}>
-          <Link href='/'>
-            <a>Series 3: Challengers 2(CIS)</a>
-          </Link>
-        </div>
-
-        <div style={style.divDate}>
-          <span>Jul 20 - 31</span>
         </div>
 
         <div style={style.divName}>
@@ -114,7 +94,7 @@ function OnGoingTournaments() {
           <span>Jul 20 - 31</span>
         </div>
       </div>
-    </div >
+    </div>
   )
 }
 

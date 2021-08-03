@@ -1,9 +1,18 @@
 import Link from 'next/link'
 import React from 'react'
 
-function matches() {
+function Positions() {
 
   const style = {
+    table: {
+      gridRow: '1/1',
+      gridColumn: '2',
+      border: '2px solid black',
+      float: 'right',
+      gridArea: 'premiacao',
+      margin: '10px 25px 0 25px',
+      borderCollapse: 'collapse',
+    },
     rowHead: {
       borderBottom: '1px solid black'
     },
@@ -19,7 +28,7 @@ function matches() {
   }
 
   return (
-    <table className='premiacao'>
+    <table style={style.table}>
       <thead>
         <tr style={style.rowHead}>
           <th className="posicao" style={style.th}>Posição</th>
@@ -104,4 +113,4 @@ function matches() {
   )
 }
 
-export default matches
+export default Positions;

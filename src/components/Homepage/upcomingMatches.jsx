@@ -22,7 +22,7 @@ function UpcomingMatches() {
       backgroundColor: 'white',
       width: '80%',
       paddingTop: '10px',
-      textAlign: 'center'
+      textAlign: 'center',
     },
     match2: {
       borderTop: '1px solid black',
@@ -30,7 +30,7 @@ function UpcomingMatches() {
       width: '80%',
       paddingTop: '10px',
       borderRadius: '0 0 5px 5px',
-      textAlign: 'center'
+      textAlign: 'center',
     },
     link: {
       textAlign: 'center',

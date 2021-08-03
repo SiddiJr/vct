@@ -2,14 +2,32 @@ import Link from 'next/link'
 import React from 'react'
 
 function matches() {
+
+  const style = {
+    rowHead: {
+      borderBottom: '1px solid black'
+    },
+    th: {
+      width: '140px',
+      height: '65.05px'
+    },
+    thTime: {
+      width: '140px',
+      height: '65.05px',
+      borderRight: 'none'
+    }
+  }
+
   return (
-    <table className='premiacao'>
-      <tr>
-        <th className="posicao">Posição</th>
-        <th className="premio">Premio</th>
-        <th className="seed">Seed</th>
-        <th className="time">Time</th>
-      </tr>
+    <table className='premiacao' style={{ borderRadius: '3px' }}>
+      <thead>
+        <tr style={style.rowHead}>
+          <th className="posicao" style={style.th}>Posição</th>
+          <th className="premio" style={style.th}>Premio</th>
+          <th className="seed" style={style.th}>Seed</th>
+          <th className="time" style={style.thTime}>Time</th>
+        </tr>
+      </thead>
 
       <tr>
         <td className="data">1º - 2º</td>
